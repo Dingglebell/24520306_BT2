@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title> Hello! </title>
+
+    <link rel= "stylesheet" type= "text/css" href= "styles.css">
+</head>
+
+<body>
+    <header> 
+        <nav>
+            <!-- href trỏ đến id của các phần nội dung -->
+            <a href="#main">Giới thiệu bản thân</a>
+            <a href="#footer">Gửi thông tin và liên hệ cùng tôi</a>
+        </nav>
+    </header>
+
+    <main id = "main">
+    <h1 style = "color: #CAEDFF"> Giới thiệu bản thân </h1>
+        
+    <img src = https://cdn.mos.cms.futurecdn.net/WNnbdBgWj7x23n5QqpvUo7-1200-80.jpg width = 200>
+
+    <h2 style = "color: #D8B4F8"> Thông tin cơ bản </h2>
+
+    <ul>
+        <li> Tên: Phạm Công Định</li>
+        <li> Năm sinh: 2006</li>
+        <li> Chuyên ngành: Hệ thống thông tin</li>
+    </ul>
+
+    <h2 style = "color: #D8B4F8"> Sở thích </h2>
+    
+    <h3 style = "color: #FFC7EA"> Món ăn </h3>
+
+    <ol>
+        <li> Ravioli </li>
+        <li> Bò xào hoa thiên lý </li>
+        <li> Pizza </li>
+    </ol>
+
+    <h3> Giải trí</h3>
+    <h4> Trò chơi</h4>
+    <ul>
+        <li> Super Mario Bros </li>
+        <li> Minecraft </li>
+        <li> Đá cầu </li>
+    </ul>
+
+    <h4> Bài nhạc yêu thích </h4>
+
+    <ul>
+        <li> Aurora - Cure For Me </li>
+        <li> ABBA - The Winner Takes It All </li>
+        <li> Sia - Ho Ho Ho </li>
+    </ul>
+
+    <h2> Mục tiêu của bản thân </h2>
+    <p> Thực ra chẳng có j nhiều để nói ngoài việc mình sẽ trở thành bài thủ đỉnh nhất Macao téo teo téo teo teo teo tèo </p>
+
+    <table class = "goal"> <!--tr: table row; th: table header; td: table data-->
+        <tr> 
+            <th> Mục tiêu </th>
+            <th> Thời hạn </th>
+            <th> Hoàn thành </th>
+        </tr>
+        <tr>
+            <td> Đầu ra lập trình web 10.0 điểm trung bình </td>
+            <td> 30/1/2027 </td>
+            <td> <input type = "checkbox" name = ht> </td>
+        </tr>
+        <tr> 
+            <td> Làm ra con game  được publish kiếm về 1 tỷ </td>
+            <td> 6/9/2030 </td>
+            <td> <input type = "checkbox" name = ht> </td>
+        </tr>
+        <tr>
+            <td> 10 điểm khóa luận tốt nghiệp </td>
+            <td> 31/6/2027 </td>
+            <td> <input type = "checkbox" name = ht> </td>
+        </tr>
+    </table>
+
+    </main>
+
+
+
+
+    <div class = "userInfo"> 
+        <h1> Gửi thông tin và giao lưu cùng tôi </h1>
+        <form name = userInfoForm>
+            <label for "fullName"> Họ và tên: 
+            <input type = "text" name = "fullName"/> <br><br>
+
+            <label for "email"> Email:
+            <input type = "text" name = "email"/> <br><br>
+
+            <label for "message"> Tin nhắn: <br>
+            <textarea name = "message" cols="60" rows="5" wrap="on"> </textarea><br><br>
+
+            <label for "sex"> Giới tính: <br>
+            <input type = "radio" name = "sex"/> Nam
+            <input type = "radio" name = "sex"/> Nữ <br><br>
+            
+            <label for "interest"> Sở thích: <br>
+            <input type = "checkbox" name = "interest"/> Nghe nhạc
+            <input type = "checkbox" name = "interest"/> Chơi game
+            <input type = "checkbox" name = "interest"/> Thể thao <br><br>
+
+            <label for "major"> Ngành: 
+            <select> 
+                <option> Khoa học máy tính </option>
+                <option> Hệ thống thông tin </option>
+                <option> Thương mại điện tử </option>
+            </select> <br><br>
+
+            <input type = "submit" name = "userInfoSend" value = "Gửi"/>
+        </form>
+    </div>
+
+
+
+
+    <footer id = "footer">
+    <p> @2024 24520306 Phạm Công Định </p>
+    </footer>
+
+
+
+
+</body>
+</html>
